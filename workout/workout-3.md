@@ -1,0 +1,4 @@
+-- connect the all pages
+-- image and make use of (width and heigh to resize your image)
+-- CREATE a tabke to display list of your friends (add image to the data to display there image(use random image))
+-- make use of div tag

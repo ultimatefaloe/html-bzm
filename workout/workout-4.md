@@ -1,0 +1,6 @@
+-- add to workout three
+-- add image
+-- on each blog 
+- add video
+- use for display football blog page
+- add audio

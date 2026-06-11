@@ -1,3 +1,3 @@
 -- update all your page 
--- move all styling to external styling
+-- move all inline and internal styling to external styling
 - update style by add text styling 

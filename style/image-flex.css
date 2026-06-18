@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.left-con{
+  flex: 70%;
+  padding: 10px;
+  background-color: rgb(3, 3, 75);
+  border-radius: 20px;
+  height: 100%;
+}
+
+.left-con img{
+  width: 100%;
+  height: auto;
+}
+
+.right-con{
+  flex: 30%;
+  padding: 10px;
+  background-color: #e6e6ff;
+  border-radius: 10px;
+}

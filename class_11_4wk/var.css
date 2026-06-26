@@ -1,0 +1,45 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: green;
+  --secondary-color: #f0f0f0;
+  --text-color: #191919;
+  --font-size-large: 50px;
+  --font-size-medium: 20px;
+  --font-size-small: 14px;
+  --border-radius: 8px;
+  --animation-duration: 2s;
+}
+
+.nav{
+  background-color: var(--primary-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 5px 15px;
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+  background-color: var(--secondary-color);
+  font-size: var(--font-size-medium); 
+}
+
+.auth_links{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
